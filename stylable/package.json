@@ -1,0 +1,28 @@
+{
+  "name": "stylable-library",
+  "version": "1.0.0",
+  "description": "Explore the various ways to style React components and package them up",
+  "main": "index.js",
+  "repository": "https://github.com/slimeygecko/style-and-package.git",
+  "author": "Mike Woodward <michaelcwoodward@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  },
+  "devDependencies": {
+    "@types/react": "^16.8.20",
+    "@types/react-dom": "^16.8.4",
+    "awesome-typescript-loader": "^5.2.1",
+    "cross-env": "^5.2.0",
+    "html-webpack-plugin": "^3.2.0",
+    "typescript": "^3.5.2",
+    "webpack": "^4.34.0",
+    "webpack-nano": "^0.6.2",
+    "webpack-plugin-serve": "^0.11.0"
+  },
+  "scripts": {
+    "start": "cross-env NODE_ENV=development wp --config ./webpack.config"
+  }
+}
